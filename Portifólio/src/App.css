@@ -1,0 +1,60 @@
+@charset "UTF-8";
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: black;
+}
+
+.container {
+  display: flex;
+  justify-content: center; /* Centraliza na tela */
+  align-items: center; /* Alinha verticalmente */
+  height: 100vh;
+}
+
+#avatar {
+  display: flex;
+  align-items: flex-start; /* Alinha a imagem e o texto no centro */
+  gap: 20px; /* Espaço entre a imagem e o texto */
+}
+
+.texto {
+  display: flex;
+  flex-direction: column; /* Faz o texto ficar em coluna */
+  padding: 10px;
+}
+
+.texto, h1  {
+  margin-bottom: 20px;
+}
+
+.texto, p {
+  font-size: 20px;
+}
+
+
+#personagem {
+  border-radius: 100%;
+
+}
+
+/* 🔥 QUEBRA O LAYOUT EM TELAS MENORES */
+@media (max-width: 768px) {
+  #avatar {
+      flex-direction: column; /* Muda para coluna */
+      align-items: center; /* Centraliza tudo */
+      text-align: center; /* Centraliza os textos */
+  }
+
+  img {
+    margin-top: 30px;
+    width: 300px; /* Reduz o tamanho da imagem */
+  }
+
+}
+
