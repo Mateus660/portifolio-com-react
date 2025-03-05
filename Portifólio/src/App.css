@@ -7,20 +7,57 @@
 }
 
 body {
-  background-color: black;
+    background-image: linear-gradient(160deg, #021C42, #253d64);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh; /* Garante que o fundo cubra toda a tela */
+    padding: 20px;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Ajusta a altura conforme o conteúdo */
+    width: 100%;
+  }
+  
+  #meus-projetos {
+    display: flex;
+    justify-content: space-between; /* Distribui igualmente os itens em duas colunas */
+    flex-wrap: wrap;
+    margin-top: 40px;
+    width: 100%;
 }
 
-.container {
-  display: flex;
-  justify-content: center; /* Centraliza na tela */
-  align-items: center; /* Alinha verticalmente */
-  height: 100vh;
+.projetos {
+    box-shadow: 0 4px 10px(0, 0, 0, 0.2); /* Adiciona sombra */
+    width: 48%; /* Ajusta para 48% para exibir 2 projetos por linha */
+    background: rgba(255, 255, 255, 0.1);
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 4px rgba(255, 255, 255, 0.5); /* Sombra branca */
+    margin-bottom: 20px; /* Espaço abaixo de cada projeto */
+}
+
+.projetos > h1 {
+   font-size: 36px;
+}
+
+.projetos a {
+  color: white;
+  font-size: large;
+  display: block;
+  margin-top: 10px; /* Adiciona um espaço entre os links */
 }
 
 #avatar {
   display: flex;
   align-items: flex-start; /* Alinha a imagem e o texto no centro */
   gap: 20px; /* Espaço entre a imagem e o texto */
+  margin-left: 20px;
 }
 
 .texto {
@@ -37,10 +74,30 @@ body {
   font-size: 20px;
 }
 
-
 #personagem {
   border-radius: 100%;
+}
 
+#logos {
+  gap: 10px;
+}
+
+
+.projetos img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+a {
+  color: white;
+  font-size: large;
+}
+
+a:hover {
+  color: white;
+  border-color: white;
+  border-style: solid;
 }
 
 /* 🔥 QUEBRA O LAYOUT EM TELAS MENORES */
@@ -51,10 +108,29 @@ body {
       text-align: center; /* Centraliza os textos */
   }
 
+  body {
+      padding: 20px;
+    }
+
+  #logos img {
+      width: 80px; /* Reduz o tamanho das imagens nas telas menores */
+      height: auto; /* Garante que a altura permaneça proporcional */
+  }
+
   img {
     margin-top: 30px;
     width: 300px; /* Reduz o tamanho da imagem */
   }
 
+  #logos {
+    flex-wrap: wrap;
+  }
+
+  #meus-projetos {
+    gap: 20px;
+  }
+  .projetos {
+    width: 100%; /* Ocupa toda a largura da tela em dispositivos móveis */
+  }
 }
 
