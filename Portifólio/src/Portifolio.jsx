@@ -6,6 +6,8 @@ import jquery  from "./img/png-jquery-removebg-preview.png"
 import html from "./img/png-html.png"
 import css from "./img/css-logo.png"
 import sql from "./img/logo-sql.png"
+import git from "./img/git-logo.png.png"
+import github from "./img/GitHub-logo.png"
 import relogio from "./img/relógio-digital.png"
 import climatempo from "./img/climatempo.png"
 import tarefas from "./img/organizador-de-tarefas.png"
@@ -31,6 +33,8 @@ function Portifolio() {
                         <img src= {html} alt="" srcset="" height={120} width={120}/>
                         <img src={css} alt="logo css" srcset="logo css" height={120} width={130}/>
                         <img src={sql} alt="logo css" srcset="logo css" height={100} width={100}/>
+                        <img src={git} alt="logo css" srcset="logo css" height={100} width={100}/>
+                        <img src={github} alt="logo css" srcset="logo css" height={100} width={140}/>
                     </div>
                 </div>
             </div>
