@@ -30,7 +30,7 @@ function Portifolio() {
                         <img src={javascript} alt="logo javascript" srcset="logo javscript" height={100} width={100}/>
                         <img src={react} alt="logo react" srcset="logo react" height={100} width={100}/>
                         <img src={jquery} alt="logo jquery" srcset="logo jquery" height={100} width={130}/>
-                        <img src= {html} alt="" srcset="" height={120} width={120}/>
+                        <img src={html} alt="" srcset="" height={120} width={120}/>
                         <img src={css} alt="logo css" srcset="logo css" height={120} width={130}/>
                         <img src={sql} alt="logo css" srcset="logo css" height={100} width={100}/>
                         <img src={git} alt="logo css" srcset="logo css" height={100} width={100}/>
