@@ -10,6 +10,7 @@ import relogio from "./img/relógio-digital.png"
 import climatempo from "./img/climatempo.png"
 import tarefas from "./img/organizador-de-tarefas.png"
 import gerador from "./img/gerador-de-senhas.png"
+import ingressos from "./img/compra-ingressos.png"
 
 function Portifolio() {
     return (
@@ -52,6 +53,18 @@ function Portifolio() {
                     <h1>Gerador de senhas automático</h1>
                     <img src={gerador} alt="site climatempo" srcset="site climatempo" />
                     <p>Este projeto foi desenvolvido utilizando JavaScript, HTML e CSS, com o objetivo de oferecer uma ferramenta eficiente e fácil de usar para a criação de senhas seguras. O Gerador de Senhas Automático permite que os usuários escolham entre diferentes tipos de caracteres, como letras maiúsculas, minúsculas, números e símbolos, para criar senhas personalizadas de forma rápida. O projeto foi pensado para oferecer praticidade e segurança, além de ser totalmente responsivo, adaptando-se a diferentes dispositivos e tamanhos de tela.</p> <a href="https://mateus660.github.io/gerador-de-senha/" target="_blank">Clique aqui para acessar o projeto</a>  <a href="https://mateus660.github.io/Organizador_de_tarefas/HTML/login.html" target="_blank">Clique aqui para acessar o projeto no github</a>
+                   </div>
+
+                   <div className="projetos">
+                    <h1>Sistema de compra de ingressos de cinema</h1>
+                    <img src={ingressos} alt="site climatempo" srcset="site climatempo" />
+                    <p>A ideia principal dessa tela é permitir que o usuário selecione seu filme preferido de uma lista, que é exibida de forma horizontal, com os filmes dispostos de maneira "deitada" usando flexbox. O layout foi cuidadosamente planejado para garantir que a interface seja visualmente agradável e intuitiva, com os filmes centralizados e organizados de forma a facilitar a navegação.</p> <a href="https://mateus660.github.io/lugares-de-cinema/HTML/escolha-de-films.html" target="_blank">Clique aqui para acessar o projeto</a>  <a href="https://github.com/Mateus660/lugares-de-cinema.git" target="_blank">Clique aqui para acessar o projeto no github</a>
+                   </div>
+
+                   <div className="projetos">
+                    <h1>Sistema de compra de ingressos de cinema</h1>
+                    <img src={ingressos} alt="site climatempo" srcset="site climatempo" />
+                    <p>A ideia principal dessa tela é permitir que o usuário selecione seu filme preferido de uma lista, que é exibida de forma horizontal, com os filmes dispostos de maneira "deitada" usando flexbox. O layout foi cuidadosamente planejado para garantir que a interface seja visualmente agradável e intuitiva, com os filmes centralizados e organizados de forma a facilitar a navegação.</p> <a href="https://mateus660.github.io/lugares-de-cinema/HTML/escolha-de-films.html" target="_blank">Clique aqui para acessar o projeto</a>  <a href="https://github.com/Mateus660/lugares-de-cinema.git" target="_blank">Clique aqui para acessar o projeto no github</a>
                    </div>
              </div>
         </div>
